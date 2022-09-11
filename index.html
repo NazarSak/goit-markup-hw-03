@@ -9,47 +9,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 </head>
 <!-- Заголовок -->
 <body>
 <header class="header">
-
-   <nav>
+<div class=" container container-header ">
     <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
-    <ul class="header-list list">
-        <li class="header-item"> <a href="./index.html" class="header-link link">Студія</a></li>     
-        <li class="header-item">  <a href="./portfolio.html" class="header-link link">Портфоліо</a></li>  
-        <li class="header-item">  <a href="./portfolio.html" class="header-link link">Контакти</a></li>   
-    </ul> 
-
-   </nav>
-       
-<ul class="list"><li><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li> 
-    <li><a href="tel:+380961111111" class="header-contact link">+38 096 111 11 11</a></li>
-</ul>
+    <nav>
+        <ul class="header-list list">
+            <li class="header-item"> <a href="./index.html" class="header-link link">Студія</a></li>     
+            <li class="header-item">  <a href="./portfolio.html" class="header-link link">Портфоліо</a></li>  
+            <li class="header-item">  <a href="./portfolio.html" class="header-link link">Контакти</a></li>   
+        </ul> 
     
+       </nav>
+         <div class="contacts-wrap">
+           
+            <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+           <a href="tel:+380961111111" class="header-contact link">+38 096 111 11 11</a>
+    
+        </div> 
+</div>
 </header>
 <!-- Основний контент -->
 <main>
 <!-- Перша коробка з кнопкою -->
 <section class="first-section">
-<h1 class="first-large-words">
-    Ефективні рішення для вашого бізнесу
-</h1>
-
-<button type="button" class="header-btn" >Замовити послугу</button>
-
+<div class="first-container">
+    <h1 class="first-large-words">
+        Ефективні рішення для вашого бізнесу
+    </h1>
+    <button type="button" class="header-btn" >Замовити послугу</button>
+</div>
 </section>
 <!-- Описи чотирьох слів -->
 <section class="hero-section">
-    <h2>Переваги</h2>
-    <ul class="hero-social list">
+    <div class="container-description"> 
         
-        <li class="hero-description"><h3 class="hero-header">ПЛАНУВАННЯ</h3> <p class="hero-content">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
-        <li class="hero-description"><h3 class="hero-header">ПУНКТУАЛЬНІСТЬ</h3> <p class="hero-content">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-        <li class="hero-description"><h3 class="hero-header">УВАГА ДО ДЕТАЛЕЙ</h3> <p class="hero-content">Так само консультація з широким активом значною мірою зумовлює.</p></li>
-        <li class="hero-description"><h3 class="hero-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="hero-content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
-    </ul>
+        <ul class="hero-social list">
+            
+            <div class="hero-description-one"> <li class="hero-description-one"><h3 class="hero-header">ПЛАНУВАННЯ</h3> <p class="hero-content">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li></div>
+            <div class="hero-description-one" > <li class="hero-description"><h3 class="hero-header">ПУНКТУАЛЬНІСТЬ</h3> <p class="hero-content">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li></div>
+            <div class="hero-description-one"> <li class="hero-description"><h3 class="hero-header">УВАГА ДО ДЕТАЛЕЙ</h3> <p class="hero-content">Так само консультація з широким активом значною мірою зумовлює.</p></li></div>
+            <div class="hero-description-one"> <li class="hero-description"><h3 class="hero-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="hero-content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li></div>
+        </ul>
+    </div>
 </section>
 <!-- РОзповідь про те що вони роблять -->
 <section class="photo-section">
