@@ -36,7 +36,7 @@
 <main>
 <!-- Перша коробка з кнопкою -->
 <section class="first-section">
-<div class="first-container">
+<div class="container">
     <h1 class="first-large-words">
         Ефективні рішення для вашого бізнесу
     </h1>
@@ -57,63 +57,72 @@
     </div>
 </section>
 <!-- РОзповідь про те що вони роблять -->
-<section class="photo-section">
-<h2 class="photo-header">Чим ми займаємося</h2>
-<ul class="list">
+<section class="photo-section-one">
+    <div class="container-description">
+        <h2 class="photo-header">Чим ми займаємося</h2>
+<ul class="list list-container">
     <li class="general-work-photo"><img src="./img/img-one.jpg" alt="Робота з пк" width="370"> </li>
     <li class="general-work-photo"><img src="./img/img-two.jpg" alt="робота приладів" width="370"></li>
     <li class="general-work-photo"><img src="./img/img-thre.jpg" alt="фото роботи дизайнера" width="370"></li>
 </ul>
+    </div>
+
 </section>
 <!-- Їхня команда -->
 <section class="photo-hero">
-<h2 class="header-hero">Наша команда</h2>
-<ul class="list">
-    <li class="hero-comand"> <img src="./img/comand.jpg" 
-        alt="Ігор Дем'яненко"
-        width="270"
-        height="260" class="hero"
-        > 
-        <h3 class="name-photo">Ігор Дем'яненко</h3> 
-        <p class="description-picture">Product Designer</p> 
-    </li>
-    <li> <img src="./img/comand-one.jpg" 
-        alt="Ольга Рєпіна"
-        width="270"
-        height="260" class="hero"
-        > 
-        <h3 class="name-photo">Ольга Рєпіна</h3> 
-        <p class="description-picture">Frontend Developer</p> 
-    </li>
+    <div class="container">
+        <h2 class="header-hero">Наша команда</h2>
+        <ul class="list list-container ">
+            <li class="hero-comand color-white"> <img src="./img/comand.jpg" 
+                alt="Ігор Дем'яненко"
+                width="270"
+                height="260" class="hero"
+                > 
+                <h3 class="name-photo">Ігор Дем'яненко</h3> 
+                <p class="description-picture">Product Designer</p> 
+            </li>
+            <li class="hero-comand color-white"> <img src="./img/comand-one.jpg" 
+                alt="Ольга Рєпіна"
+                width="270"
+                height="260" class="hero"
+                > 
+                <h3 class="name-photo">Ольга Рєпіна</h3> 
+                <p class="description-picture">Frontend Developer</p> 
+            </li>
+        
+            <li class="hero-comand color-white "> <img src="./img/comand-two.jpg" 
+                alt="Микола Тарасов"
+                width="270"
+                height="260" class="hero"
+                > 
+                <h3 class="name-photo">Микола Тарасов</h3> 
+                <p class="description-picture">Marketing</p> </li>
+        
+            <li class="hero-comand color-white"> <img src="./img/comand-three.jpg" 
+                alt="Михайло Єрмаков"
+                width="270"
+                height="260" class="hero"
+                > 
+                <h3 class="name-photo">Михайло Єрмаков</h3> 
+                <p class="description-picture">UI Designer</p> </li>
+        </ul>
+    </div>
 
-    <li> <img src="./img/comand-two.jpg" 
-        alt="Микола Тарасов"
-        width="270"
-        height="260" class="hero"
-        > 
-        <h3 class="name-photo">Микола Тарасов</h3> 
-        <p class="description-picture">Marketing</p> </li>
-
-    <li> <img src="./img/comand-three.jpg" 
-        alt="Михайло Єрмаков"
-        width="270"
-        height="260" class="hero"
-        > 
-        <h3 class="name-photo">Михайло Єрмаков</h3> 
-        <p class="description-picture">UI Designer</p> </li>
-</ul>
 </section>
 </main>
 
 <footer class="footer">
-    <a href="./index.html" class="logo-one"><span class="logo-web">Web</span>Studio</a>
+    <div class="container">
+        <a href="./index.html" class="logo-one"><span class="logo-web">Web</span>Studio</a>
 
-<address> <ul class="list">
-    <li> <a href="https://goo.gl/maps/XLrFpxpfjgVsRPzN8" target="_blank" rel="noopener noreferrer" class="maps link">м. Київ, пр-т Лесі Українки, 26</a> </li>
-    <li> <a href="mailto:info@devstudio.com" class="footer-inf link">info@devstudio.com</a></li>
-    <li> <a href="tel:+380961111111" class="footer-inf link">+38 096 111 11 11</a></li>
-</ul>
-</address>
+        <address> <ul class="list divka">
+            <li> <a href="https://goo.gl/maps/XLrFpxpfjgVsRPzN8" target="_blank" rel="noopener noreferrer" class="maps link">м. Київ, пр-т Лесі Українки, 26</a> </li>
+            <li> <a href="mailto:info@devstudio.com" class="footer-inf link">info@devstudio.com</a></li>
+            <li> <a href="tel:+380961111111" class="footer-inf link">+38 096 111 11 11</a></li>
+        </ul>
+        </address>
+    </div>
+   
 </footer>
          
 
