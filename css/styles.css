@@ -10,6 +10,7 @@
   --background-general-color:#F5F5F5;
   --main-color: #EEEEEE;
   --border-color:#ECECEC;
+  --last-color: #188CE8;
 }
 
 h1,
@@ -39,7 +40,10 @@ letter-spacing: 0.03em;
 background-color:var(--white-text-color);
 }
 
-
+.header-btn:hover,
+.header-btn:focus{
+  background-color: var(--last-color);
+}
 
 .container{
   width: 1200px;
@@ -190,7 +194,6 @@ text-align: center;
 }
 .header-btn{
   cursor: pointer;
-font-style: normal;
 font-weight: 700;
 padding: 10px 32px;
 font-size: 16px;
@@ -312,7 +315,6 @@ margin-bottom: 50px;
 
 
 .hero-comand{
- gap: 30px;
  width:270px;
  background: var(--white-text-color);
  padding-bottom: 30px;
@@ -372,14 +374,12 @@ color:var(--last-light-color);
   font-family: inherit;
   font-size: 16px;
   line-height:1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color:var(--first-text-color);
   background-color:var(--background-ligt-color);
   border:none;
   border-radius: 4px;
-  padding-top: 6px;
-  padding-right: 6px;
+  padding: 6px 22px;
 }
 
 .header-btn-other:hover,
